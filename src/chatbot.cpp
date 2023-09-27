@@ -72,7 +72,7 @@ ChatBot& ChatBot::operator=(const ChatBot& source)
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
 
-
+    return *this;
 }
 
 // move constructor
